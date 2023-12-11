@@ -1,0 +1,229 @@
+@font-face {
+    font-family: "Courier font";
+    src: url(../font/Cairo-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Courier font1";
+    src: url(../font/رقعة/ReadexPro-Bold.ttf);
+}
+
+body {
+    font-family: "Courier font", Arial, sans-serif;
+    background-color: #fafafa;
+}
+
+#top-menu .bg-light {
+    background-color: #004d40!important;
+}
+
+
+.navbar-brand{
+    font-family: "Courier font1", Arial, sans-serif;
+    color: #fafafa !important; 
+}
+
+.nav-link4 {
+    color: #fafafa !important;
+    
+}
+a {
+    color: #000;
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+  }
+
+
+.bg-light4{
+    background-color: white;
+}
+
+
+#top-menu .tolab-icon {
+    color: #ffc107;
+    
+}
+
+.navbar .login {
+    color: #ffc107;
+}
+
+.modal-header {
+    background-color: #004d40;
+}
+
+.modal-body {
+    background-color: #004d40!important;
+}
+
+.modal-footer {
+    background-color: #004d40!important;
+}
+.modal-footer .sinup {
+    color: #ffc107;
+}
+
+.modal-footer .forget {
+    color: #ffc107;
+}
+.form-group .form-control {
+    background-color: #b2dfdb;
+    color: black;
+}
+
+.card {
+    margin-top: 10%;
+}
+
+.card .card-icon {
+    position: relative;
+}
+
+time {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    color: #fff;
+    background-color: #000;
+    padding: 0px 3px;
+}
+
+.card .fa-play {
+    position: absolute;
+    top: 43%;
+    right: 41%;
+    color: black;
+    display: none;
+}
+
+.card:hover .fa-play {
+    display: inline;
+}
+
+.card .card-horizontal .card-body p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-body {
+    min-width: 0;
+}
+
+.card:hover {
+    transform: translateY(-0.9%);
+}
+
+.card {
+    transition: transform 0.5s;
+}
+
+.card .card-title {
+    height: 50px;
+    overflow: hidden;
+}
+
+#top-menu .fa-bars {
+    color: #ffc107;
+    cursor: pointer;
+}
+
+.sidebar {
+    position: fixed;
+    z-index: 4;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+.sidebar:hover {
+    overflow-y: scroll;
+}
+.sidebar .purple {
+    color: #ffc107;
+}
+
+.sidebar .list-group-item:hover {
+    color: #fff;
+    background-color: #00796b;
+}
+
+.sidebar .list-group-item {
+    width: 17rem;
+}
+
+#wrap.toggled .sidebar {
+    right: 0rem;
+}
+
+.sidebar::-webkit-scrollbar {
+    background-color: rgb(230, 230, 230);
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: rgb(179, 179, 179);
+    width: 8px;
+}
+
+.layer {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 3;
+    display: none;
+}
+
+.navbar .search-icon {
+    color: #ffc107;
+    cursor: pointer;
+    padding: 15px 10px;
+    position: absolute;
+    top: 15px;
+    left: 132px;
+    display: none;
+}
+
+.navbar .search-icon:hover {
+    color: #fff;
+    background-color: #00796b;
+}
+.search-input{
+    position: fixed;
+    top: 72px;
+    border: none;
+    padding: 6px 23px;
+    height: 60px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+}
+.search-input:focus {
+    background-color: #efeeee;
+}
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+}
+@media (max-width: 1115px) {
+    /*اخفاء حقل البحث الموجود في القائمة العلوية*/
+    .navbar .collapse .form-inline {
+        display: none;
+    }
+    /*اظهار ايقونة البحث*/
+    .navbar .search-icon {
+        display: inline;
+    }
+}
+@media (min-width: 1115px) {
+    .search-input {
+        display: none !important;
+    }
+}

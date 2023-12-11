@@ -1,0 +1,21 @@
+/*******buttons*****/
+.primary_button{
+    min-width: 135px;
+    min-height: 45px;
+    border-radius: 20px;
+    background-color: #090b3b;
+    border: 0px solid transparent;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s ease;
+}
+.primary_button:hover{
+    transform: scale(1.1);
+}
+.in_app{
+    background-color: var(--action_color);
+}

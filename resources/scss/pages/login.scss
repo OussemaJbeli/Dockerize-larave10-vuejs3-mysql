@@ -1,0 +1,28 @@
+.login_frame{
+    position: fixed;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    .panel_login{
+        width: 450px;
+        height: 350px;
+    }
+}
+.layer_dark{
+    position: fixed;
+    padding: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #00000085;
+    z-index: 1029;
+}
+.sidebar{
+    z-index: 1035;
+}

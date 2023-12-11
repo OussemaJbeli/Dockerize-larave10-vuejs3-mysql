@@ -1,0 +1,70 @@
+.cards_panel{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .first_card{
+        width: 30%;
+        border: 2.5px solid #ff5689;
+        i{
+            color: #ff5689;
+        }
+    }
+    .second_card{
+        width: 30%;
+        border: 2.5px solid #03a9f4;
+        i{
+            color: #03a9f4;
+        }
+    }
+    .theerd_card{
+        width: 30%;
+        border: 2.5px solid #6e22af;
+        i{
+            font-size: 50px;
+            color: #6e22af;
+        }
+    }
+}
+.total_cards{
+    min-width: 210px;
+    height: 150px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    .logo_card{
+        width: 70%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        p{
+            font-size: 15px;
+            color: #b4b4b4;
+        }
+        span{
+            font-size: 18px;
+            color: #fff;
+        }
+    }
+    .values_card{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        i{
+            font-size: 60px;
+            border: 0 solid transparent;
+            border-radius: 10px;
+            padding: 5px;
+            margin-right: 5px;
+        }
+    }
+}

@@ -1,0 +1,143 @@
+.big_frame{
+    padding: 0;
+    width: 100%;
+    height: calc(100vh - 90px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    .first_part{
+        margin-bottom: 10px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        background-color: #07483fd2;
+        height: 15vw;
+        width: 100%;
+        .img{
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 25vw;
+            height: 25vw;
+        }
+        p{
+            padding-right: 40px;
+            font-size: 5vw;
+            color: #fff;
+        }
+    }
+    .second_part{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        overflow: hidden auto;
+        .conversation{
+            padding: 10px 10px;
+            width: 700px;
+            .underconverstation{
+                width: 100%;
+                .message_user,.message_admin{
+                    margin-top: 10px;
+                }
+                .message {
+                        width: auto;
+                        max-width: 400px;
+                        margin-top: 5px;
+                        padding: 10px;
+                        border-radius: 20px 0px;
+                        background-color: #f0f0f0;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        .sender {
+                            font-weight: bold;
+                            margin-bottom: 6px;
+                        }
+                        .timestamp {
+                            font-size: 12px;
+                            color: #888;
+                        }
+                }
+                .message_user{
+                    direction: rtl;
+                    .message{
+                        border-radius: 0 20px;
+                        background-color: #31665f;
+                        color: #fff;
+                        .timestamp{
+                            color: #d3d3d3;
+                        }
+                    }
+                }
+                .message_admin{
+                    direction: ltr;
+                    .message{
+                        background-color: #b4b4b4;
+                        color: #000;
+                        .timestamp{
+                            color: #3a3a3a;
+                        }
+                    }
+                }
+            }
+        }
+        .conversation_respensive{
+            width: 80%;
+        }
+        .form_respensive{
+            width: 80%;
+        }
+        //form send
+        form{
+            padding: 10px;
+            height: 90%;
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .user_info{
+        margin-right: 10px;
+        width: 400px;
+        height: 100%;
+        background: var(--bg2);
+        border: 0 solid transparent;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #fff;
+        .user_img{
+            width: 250px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 200px;
+                height: 200px;
+                border: 0 solid transparent;
+                border-radius: 50%;
+                background-color: #fff;
+            }
+            .name{
+                font-size: 25px;
+                font-weight: 700;
+            }
+        }
+        .email{
+            padding-top: 20px;
+            font-size: 18px;
+        }
+        .channel{
+            padding-top: 20px;
+            color: #b1b1b1;
+            font-size: 20px;
+        }
+    }
+}

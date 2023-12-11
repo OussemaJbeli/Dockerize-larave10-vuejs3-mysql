@@ -1,0 +1,52 @@
+.main_content{
+    width: calc(100% - 260px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.4s ease;
+    .header{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: var(--bg2);
+        .return_to_app{
+            color: #fff;
+        }
+        .return_to_app:hover{
+            color: var(--action_color);
+        }
+        .title_session{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            i{
+                color: var(--action_color);
+                font-size: 30px;
+                margin: 0 0px 0 20px;
+                cursor: pointer;
+                transition: .4s ease;
+            }
+            #sid_show2{
+                display: none;
+            }
+            .page_title{
+                color: #fff;
+                i{
+                    color: #fff;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    main{
+        width: 100%;
+        height: calc(100% - 80px);
+        overflow: auto;
+        padding: 0 30px;
+    }
+}

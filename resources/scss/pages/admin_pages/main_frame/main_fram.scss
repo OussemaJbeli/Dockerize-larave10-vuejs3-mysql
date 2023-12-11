@@ -1,0 +1,12 @@
+.main_frame{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--bg1);
+    //
+    @import "main_content.scss";
+    @import "side_bar.scss";
+}

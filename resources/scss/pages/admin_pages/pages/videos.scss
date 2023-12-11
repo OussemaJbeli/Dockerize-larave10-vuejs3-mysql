@@ -1,0 +1,34 @@
+.video_table{
+    font-size: 13px;
+        .subchanel_icon{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            img{
+                width: 30px;
+                height: 30px;
+                border: 0 solid transparent;
+                border-radius: 50%;
+            }
+            span{
+                color: #fff;
+                margin: 0;
+                padding: 0 5px;
+            }
+        }
+    .image_logo_videos{
+        display: flex;
+        color: #fff;
+        flex-direction: row;
+        align-items: center;
+        img{
+            width: 110px;
+            height: 70px;
+            padding: 0;
+        }
+        span{
+            margin: 0;
+            padding: 0 5px;
+        }
+    }
+}

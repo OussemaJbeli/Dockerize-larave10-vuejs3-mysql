@@ -1,0 +1,46 @@
+.total_cards{
+    min-width: 210px;
+    height: 150px;
+    border: 0px solid transparent;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding: 10px;
+    .logo_card{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        i{
+            font-size: 20px;
+            background-color: #ffffff46;
+            border: 0 solid transparent;
+            border-radius: 10px;
+            color: #fff;
+            padding: 5px;
+            margin-right: 5px;
+        }
+        p{
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+    .values_card{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        p{
+            font-size: 30px;
+            color: #fff;
+        }
+    }
+    .title_card{
+        width: 100%;
+        height: 20%;
+        font-size: 20px;
+        color: #fff;
+    }
+}

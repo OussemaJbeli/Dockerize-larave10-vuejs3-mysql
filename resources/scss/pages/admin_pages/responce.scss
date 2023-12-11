@@ -1,0 +1,621 @@
+@media (min-width:1600px){
+    //////////////////////////////////dashboard
+    .charts_frame{
+        height: 35vw;
+    }
+}
+@media (max-width:1300px){
+//////////////////////////////////dashboard
+.charts_frame{
+    height: 75vw;
+    .first_chart{
+        width: 100%;
+    }
+    .second_chart{
+        width: 100%;
+    }
+}
+
+//////////////////////////////////items
+.ticket_item_group{
+    .table{
+        table{
+            thead{
+                th{
+                    font-size: 15px;
+                    font-weight: 700;
+                    p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.tickets_table{
+    .show_items{
+        th{
+            font-size: 18px;
+            font-weight: 600;
+            p{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+}
+//////////////////////////////////popups
+.region_big{
+    background-color: var(--bg1);
+    .region_frame{
+        display: flex;
+        justify-content: end;
+        .map{
+            .tunisia_map{
+                width: 200%;
+                height: 120%;
+            }
+        }
+    }
+}
+}
+@media (max-width:1150px){
+//////////////////////////////////dashboard
+//////////////////////////////////plane target
+.chart_target{
+    .chart{
+        .plane_chart{
+            width: 50%;
+            height: 200px;
+            .big_circle{
+                width: 300px;
+                height: 300px;
+                .under_circle{
+                    width: 260px;
+                    height: 260px;
+                }
+            }
+            .target_edit{
+                .progress_persent{
+                    font-weight: 900;
+                    font-size: 15px;
+                    padding-bottom: 5px;
+                }
+                button{
+                    width: 100px;
+                    height: 40px;
+                    background-color: var(--action_color);
+                    border: 0 solid transparent;
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}
+//////////////////////////////////items
+.ticket_item_group{
+    .table{
+        table{
+            thead{
+                th{
+                    font-size: 10px;
+                    font-weight: 700;
+                    p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        img{
+                            width: 10px;
+                            height: 10px;
+                        }
+                    }
+                }
+            }
+            tbody{
+                font-size: 15px;
+            }
+        }
+    }
+}
+.tickets_table{
+    .show_items{
+        th{
+            font-size: 1.2vw;
+            font-weight: 600;
+            p{
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+    tbody{
+        td{
+            font-size: 1.2vw;
+        }
+    }
+}
+//////////////////////////////////popups
+}
+@media (max-width:1050px){
+//////////////////////////////////dashboard
+.charts_frame{
+    height: 100vw;
+}
+//////////////////////////////////plane target
+//////////////////////////////////Tickets
+//////////////////////////////////items
+//////////////////////////////////currency
+//////////////////////////////////region
+.region_big{
+    .region_frame{
+        .map{
+            .tunisia_map{
+                position: absolute;
+                left: -50%;
+                width: 200%;
+                height: 120%;
+            }
+        }
+        .table{
+            table{
+                td{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+//////////////////////////////////side_bar
+.main_frame{
+    .side_barre{
+        position: absolute;
+        z-index: 999;
+        right: -100%;
+        .nave_options{
+            .exite_side_bar{
+                .close_sid_bar{
+                    display: flex;
+                }
+            }
+        }
+    }
+    .main_content{
+        width: 100%;
+        .header{
+            .title_session{
+                #sid_show1{
+                    display: none;
+                }
+                #sid_show2{
+                    display: block;
+                }
+            }
+        }
+    }
+}
+}
+@media (max-width:800px){
+//////////////////////////////////dashboard
+.cards_panel{
+    .total_card_panel{
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+//////////////////////////////////plane target
+.chart_target{
+    .chart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .plane_chart{
+            width: 100%;
+            height: 200px;
+        }
+        .details{
+            width: 100%;
+        }
+    }
+}
+.historique_statistique{
+    p{
+        .from_to{
+            font-size: 10px;
+        }
+    }
+
+}
+//////////////////////////////////Tickets
+//////////////////////////////////items
+//////////////////////////////////currency
+//////////////////////////////////region
+.region_big{
+    .region_frame{
+        .map{
+            .tunisia_map{
+                width: 180%;
+            }
+        }
+    }
+}
+//////////////////////////////////popups
+}
+@media (max-width:650px){
+//////////////////////////////////dashboard
+.lists_frame_big{
+    padding: 0 10px;
+    .lists_frame{
+        max-height: none;
+        justify-content: center;
+        .list_panel{
+            width: 95%;
+            margin: 0;
+        }
+        .list_data{
+            max-height: none;
+        }
+    }
+}
+//////////////////////////////////plane target
+.chart_target{
+    .chart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .plane_chart{
+            width: 100%;
+            height: 200px;
+        }
+        .details{
+            width: 100%;
+        }
+    }
+}
+.historique_statistique{
+    p{
+        .from_to{
+            display: none;
+        }
+    }
+    table{
+        thead{
+            tr{
+                th{
+                    padding: 15px 5px;
+                    font-size: 15px;
+                }
+            }
+        }
+        tbody{
+            td{
+                font-size: 15px;
+            }
+        }
+    }
+}
+//////////////////////////////////Tickets
+.tickets_table{
+    .show_items{
+        th{
+            font-size: 15px;
+            font-weight: 600;
+            p{
+                img{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+    tbody{
+        td{
+            font-size: 15px;
+        }
+    }
+}
+//////////////////////////////////items
+.ticket_item_group{
+    .table{
+        height: 100%;
+        width: 85%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 25px;
+        overflow-y: auto;
+        table{
+            width: 100%;
+            background-color: #404040;
+            overflow: hidden scroll;
+            thead{
+                th{
+                    font-size: 18px;
+                    p{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: row;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .date_general{
+        width: 100px;
+        height: 150px;
+        .under_date{
+            p{
+                font-size: 35px;
+                color: #fff;
+                background-color: var(--action_color);
+                width: 100%;
+                text-align: center;
+            }
+        }
+
+    }
+}
+//////////////////////////////////currency
+.currency_frame{
+    .main_currency{
+        width: 350px;
+        height: 60px;
+        p{
+            color: #fff;
+            font-size: 15px;
+        }
+        button{
+            width: 50px;
+            font-size: 20px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+    table{
+        td{
+            font-size: 15px;
+            padding: 15px 5px ;
+        }
+        img{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .last_update{
+        height: 60px;
+        button{
+            width: 100px;
+            font-size: 15px;
+        }
+    }
+}
+//////////////////////////////////region
+.region_big{
+    .region_frame{
+        .map{
+            .tunisia_map{
+                width: 150%;
+            }
+        }
+    }
+}
+//////////////////////////////////login
+.bg_login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form_login{
+        position: relative;
+        backface-visibility: hidden;
+        width: 450px;
+        height: 450px;
+    }
+}
+}
+@media (max-width:500px){
+.charts_frame{
+    .first_chart{
+        width: 100%;
+        height: 250px;
+    }
+    .second_chart{
+        width: 100%;
+        height: 200px;
+    }
+}
+}
+@media (max-width:460px){
+//////////////////////////////////dashboard
+.charts_frame{
+    .first_chart{
+        width: 100%;
+        height: auto;
+    }
+    .second_chart{
+        width: 100%;
+        height: auto;
+    }
+}
+//////////////////////////////////plane target
+.chart_target{
+    .chart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .plane_chart{
+            width: 100%;
+            height: 200px;
+            .big_circle{
+                width: 280px;
+                height: 280px;
+                .under_circle{
+                    width: 240px;
+                    height: 240px;
+                }
+            }
+        }
+        .details{
+            margin-top: 20px;
+            width: 100%;
+            .cards_details{
+                .cards{
+                    p{
+                        font-size: 15px;
+                    }
+                    .target_card{
+                        .title_color{
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .reset_day{
+                margin-top: 20px;
+                text-align: center;
+                p{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+.historique_statistique{
+    p{
+        .from_to{
+            display: none;
+        }
+    }
+    table{
+        thead{
+            tr{
+                th{
+                    padding: 15px 1px;
+                    font-size: 12px;
+                }
+            }
+        }
+        tbody{
+            td{
+                font-size: 12px;
+                padding: 15px 1px;
+            }
+        }
+    }
+}
+//////////////////////////////////Tickets
+//////////////////////////////////items
+//////////////////////////////////currency
+.currency_frame{
+    .main_currency{
+        width: 250px;
+        height: 50px;
+    }
+    table{
+        th{
+            padding: 15px 0px;
+        }
+        td{
+            font-size: 13px;
+            padding: 15px 0px ;
+        }
+    }
+    .last_update{
+        height: 50px;
+        font-size: 12px;
+        button{
+            height: 40px;
+        }
+    }
+}
+//////////////////////////////////region
+.region_big{
+    .region_frame{
+        justify-content: center;
+        .map{
+            display: none;
+        }
+        .table{
+            width: 90%;
+            table{
+                td{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+//////////////////////////////////popups
+/// thems
+.theme_edite_frame{
+bottom: 120px;
+right: 50px;
+width: 300px;   
+}
+//tikets
+.add_tikets_frame{
+    .fram_tikets{
+        .body_fram{
+            form{
+                .items_shoser{
+                    .header_items{
+                        label{
+                            width: 50%;
+                        }
+                        #list-example{
+                            width: 70%;
+                            a{
+                                width: 40px;
+                                height: 40px;
+                                img{
+                                    width: 95%;
+                                    height: 95%;
+                                }
+                            }
+                        }
+                    }
+                }
+                .region_carrency{
+                    i{
+                        font-size: 15px;
+                    }
+                    .region{
+                        width: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
+//////////////////////////////////login
+.bg_login{
+    padding: 20px;
+    .form_login{
+        width: 100%;
+        height: 500px;
+        form{
+            .eye_pass{
+                bottom: 30px;
+            }
+        }
+    }
+}
+}
